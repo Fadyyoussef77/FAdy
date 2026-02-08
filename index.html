@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fady's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="loader">
+        <div class="loader-text"><span id="scramble-text">Fady</span></div>
+        <div class="loader-bar"></div>
+    </div>
+
+    <div id="particles-js"></div>
+
+    <nav class="navbar">
+        <div class="logo">
+            <span class="highlight">Fa</span>dy
+        </div>
+        <div class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+<ul class="nav-links">
+    <li><a href="#home" class="nav-link active">Home</a></li>
+    <li><a href="#about" class="nav-link">About</a></li>
+    <li><a href="#skills" class="nav-link">Skills</a></li>
+    <li><a href="#interests" class="nav-link">Interests</a></li>
+    <li><a href="#experience" class="nav-link">Experience</a></li> <!-- Add this line -->
+    <li><a href="#projects" class="nav-link">Projects</a></li>
+    <li><a href="#contact" class="nav-link">Contact</a></li>
+</ul> 
+   </nav>
+
+    <section id="home" class="section">
+        <div class="container">
+            <div class="home-content">
+                <h1 class="reveal-text">Hello, I'm <span class="highlight">Fady Youssef</span></h1>
+                <h2 class="typewriter">I'm an <span id="type-element"></span></h2>
+                <p class="fade-in">IT Professional & Developer</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="arrow">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About <span class="highlight">Me</span></h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="Images/Background.jpg" alt="Profile Image">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Who Am I?</h3>
+                    <p>Detail-oriented Information Technology student at Rutgers University with diverse experience in technology, security, and data management. Seeking an IT-focused role to apply strong technical skills in Python, Java, and Linux, along with analytical abilities and project management experience.</p>
+                    <p>Adept at analyzing complex technical challenges, creating efficient solutions, and leveraging Prompt Engineering for AI. With hands-on experience in data entry, IT support, and security operations, I bring a versatile skill set that combines technical expertise with real-world problem-solving.</p>                    <div class="stats-container">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="2">0</span>
+                            <span class="stat-text">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="4">0</span>
+                            <span class="stat-text">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="100">0</span>
+                            <span class="stat-text">Support Tickets Resolved</span>
+                        </div>
+                    </div>
+                    <a href="https://drive.google.com/file/d/143DNrH1uOIaiRfo44MDzqzI3B1U2O-hz/view?usp=sharing" class="btn primary-btn">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="skills" class="section">
+    <div class="container">
+        <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+        <div class="skills-categories-container">
+            <div class="skill-category">
+                <h3>Programming & Development</h3>
+                <div class="skill-items">
+                    <div class="skill-item" data-skill="Python">
+                        <div class="skill-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Python</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="85"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="Java">
+                        <div class="skill-icon">
+                            <i class="fab fa-java"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Java</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="80"></div>
+                            </div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="Linux">
+                        <div class="skill-icon">
+                            <i class="fab fa-linux"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Linux</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="80"></div>
+                            </div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="Web Dev">
+                        <div class="skill-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Web Development</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="85"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>AI & Machine Learning</h3>
+                <div class="skill-items">
+                    <div class="skill-item" data-skill="LLM">
+                        <div class="skill-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Large Language Models</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="80"></div>
+                            </div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="Prompt Engineering">
+                        <div class="skill-icon">
+                            <i class="fas fa-wand-magic-sparkles"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Prompt Engineering</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="85"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="AI Fundamentals">
+                        <div class="skill-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>AI Fundamentals</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="75"></div>
+                            </div>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="Generative AI">
+                        <div class="skill-icon">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Generative AI</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="75"></div>
+                            </div>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>IT & Systems</h3>
+                <div class="skill-items">
+                    <div class="skill-item" data-skill="IT Support">
+                        <div class="skill-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>IT Support & Troubleshooting</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="90"></div>
+                            </div>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="Security">
+                        <div class="skill-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Security Protocols</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="85"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="Data Management">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Data Management</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="85"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-skill="Networking">
+                        <div class="skill-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Networking (TCP/IP, DNS)</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="75"></div>
+                            </div>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section id="interests" class="section">
+    <div class="container">
+        <h2 class="section-title">My <span class="highlight">Interests</span></h2>
+        <div class="interests-container">
+            <div class="interest-item">
+                <div class="interest-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3>AI & Machine Learning</h3>
+                <p>Exploring cutting-edge AI technologies, LLMs, and their practical applications in real-world scenarios.</p>
+                <div class="interest-tags">
+                    <span>LLMs</span>
+                    <span>Prompt Engineering</span>
+                    <span>Neural Networks</span>
+                </div>
+            </div>
+            
+            <div class="interest-item">
+                <div class="interest-icon">
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <h3>Gaming</h3>
+                <p>Enthusiastic gamer who enjoys exploring immersive worlds, strategic gameplay, and connecting with gaming communities.</p>
+                <div class="interest-tags">
+                    <span>PC Gaming</span>
+                    <span>Multiplayer</span>
+                    <span>Strategy Games</span>
+                </div>
+            </div>
+            
+            <div class="interest-item">
+                <div class="interest-icon">
+                    <i class="fas fa-plane"></i>
+                </div>
+                <h3>Travel</h3>
+                <p>Passionate about exploring new cultures, cuisines, and landscapes around the world to broaden perspectives.</p>
+                <div class="interest-tags">
+                    <span>Cultural Exploration</span>
+                    <span>Adventure</span>
+                    <span>Photography</span>
+                </div>
+            </div>
+            
+            <div class="interest-item">
+                <div class="interest-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h3>Automation</h3>
+                <p>Developing automated systems and scripts to streamline workflows and improve efficiency.</p>
+                <div class="interest-tags">
+                    <span>Python Scripts</span>
+                    <span>Workflow Automation</span>
+                    <span>System Optimization</span>
+                </div>
+            </div>
+            
+            <div class="interest-item">
+                <div class="interest-icon">
+                    <i class="fas fa-futbol"></i>
+                </div>
+                <h3>Soccer</h3>
+                <p>Avid soccer fan and player who enjoys both watching professional matches and playing recreationally.</p>
+                <div class="interest-tags">
+                    <span>Premier League</span>
+                    <span>Team Sports</span>
+                    <span>Fitness</span>
+                </div>
+            </div>
+            
+            <div class="interest-item">
+                <div class="interest-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Cybersecurity</h3>
+                <p>Exploring security protocols, ethical hacking, and implementing secure system architectures.</p>
+                <div class="interest-tags">
+                    <span>Network Security</span>
+                    <span>Ethical Hacking</span>
+                    <span>Data Protection</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!-- Add this section after the Interests section and before the Projects section -->
+
+<section id="experience" class="section">
+    <div class="container">
+        <h2 class="section-title">My <span class="highlight">Experience</span> & <span class="highlight">Education</span></h2>
+        <div class="experience-education-grid">
+            <!-- Experience Column -->
+            <div class="experience-column">
+                <h3 class="column-title"><i class="fas fa-briefcase"></i> Experience</h3>
+                <div class="experience-timeline">
+                    <!-- Experience Item 1 -->
+                    <div class="experience-item">
+                        <div class="experience-date">
+                            <span>Nov 2024 – Present</span>
+                        </div>
+                        <div class="experience-content">
+                            <div class="experience-header">
+                                <h4>Data Entry & IT Support</h4>
+                                <h5>Meek Accounting</h5>
+                                <div class="experience-location">
+                                    <i class="fas fa-map-marker-alt"></i> South River, NJ
+                                </div>
+                            </div>
+                            <div class="experience-description">
+                                <ul>
+                                    <li>Provide help desk support for day-to-day issues (software errors, email access, connectivity)</li>
+                                    <li>Set up and maintain office devices (PCs, printers/scanners), including software installs and updates</li>
+                                    <li>Manage digital file organization and access permissions to keep documents secure</li>
+                                    <li>Resolve everyday technical issues (Wi-Fi, email, apps crashing, file access, slow PCs)</li>
+                                </ul>
+                            </div>
+                            <div class="experience-tags">
+                                <span>IT Support</span>
+                                <span>Help Desk</span>
+                                <span>Technical Troubleshooting</span>
+                                <span>System Maintenance</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience Item 2 -->
+                    <div class="experience-item">
+                        <div class="experience-date">
+                            <span>Jul 2022 – Present</span>
+                        </div>
+                        <div class="experience-content">
+                            <div class="experience-header">
+                                <h4>Security Officer</h4>
+                                <h5>Maximal Security Services</h5>
+                                <div class="experience-location">
+                                    <i class="fas fa-map-marker-alt"></i> Monroe, NJ
+                                </div>
+                            </div>
+                            <div class="experience-description">
+                                <ul>
+                                    <li>Utilized technology-based security systems, monitoring 20+ surveillance cameras</li>
+                                    <li>Managed access for 100+ daily visitors and ensured compliance with cybersecurity protocols</li>
+                                    <li>Safeguarded sensitive information for over 500 employees</li>
+                                    <li>Prepared detailed digital incident reports with 100% accuracy</li>
+                                </ul>
+                            </div>
+                            <div class="experience-tags">
+                                <span>Security Systems</span>
+                                <span>Cybersecurity</span>
+                                <span>Surveillance</span>
+                                <span>Incident Reporting</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience Item 3 -->
+                    <div class="experience-item">
+                        <div class="experience-date">
+                            <span>Feb 2022 – Mar 2022</span>
+                        </div>
+                        <div class="experience-content">
+                            <div class="experience-header">
+                                <h4>Data Entry & IT Support</h4>
+                                <h5>Oliver Youssef Accounting</h5>
+                                <div class="experience-location">
+                                    <i class="fas fa-map-marker-alt"></i> Milltown, NJ
+                                </div>
+                            </div>
+                            <div class="experience-description">
+                                <ul>
+                                    <li>Assisted with user account support (basic access requests and password resets)</li>
+                                    <li>Supported hardware tracking and organization (inventory lists, device check-in/check-out)</li>
+                                    <li>Helped maintain data backups and basic recovery steps for office files</li>
+                                    <li>Tracked subscriptions, renewals, updates, and compliance requirements</li>
+                                </ul>
+                            </div>
+                            <div class="experience-tags">
+                                <span>Data Entry</span>
+                                <span>User Support</span>
+                                <span>Data Backup</span>
+                                <span>Inventory Management</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education Column -->
+            <div class="education-column">
+                <h3 class="column-title"><i class="fas fa-graduation-cap"></i> Education</h3>
+                <div class="education-timeline">
+                    <!-- Education Item 1 -->
+                    <div class="education-item">
+                        <div class="education-date">
+                            <span>2024 – 2026</span>
+                        </div>
+                        <div class="education-content">
+                            <div class="education-header">
+                                <h4>Bachelor of Science in IT</h4>
+                                <h5>Rutgers University</h5>
+                                <div class="education-location">
+                                    <i class="fas fa-map-marker-alt"></i> New Brunswick, NJ
+                                </div>
+                            </div>
+                            <div class="education-description">
+                                <ul>
+                                    <li><strong>GPA:</strong> 3.7/4.0</li>
+                                    <li><strong>Relevant Coursework:</strong> Socail Informatics, IT Fundamentals, IT Informatics, Object Oriented Programming, Human Computer Interaction</li>
+                                </ul>
+                            </div>
+                            <div class="education-tags">
+                                <span>Data Structures</span>
+                                <span>Networking</span>
+                                <span>Cybersecurity</span>
+                                <span>Web Development</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education Item 2 -->
+<div class="education-item">
+    <div class="education-date">
+        <span>2021 – 2023</span>
+    </div>
+    <div class="education-content">
+        <div class="education-header">
+            <h4>Associate’s Degree in Accounting</h4>
+            <h5>Middlesex College</h5>
+            <div class="education-location">
+                <i class="fas fa-map-marker-alt"></i> Edison, NJ
+            </div>
+        </div>
+        <div class="education-description">
+            <ul>
+                <li><strong>Honors:</strong> Dean’s List</li>
+                <li>Developed strong foundations in data analysis, financial reporting, and information management</li>
+            </ul>
+        </div>
+        <div class="education-tags">
+            <span>Data Analysis</span>
+            <span>Accounting</span>
+            <span>Information Management</span>
+        </div>
+    </div>
+</div>
+
+                    <!-- Education Item 3 -->
+                    <div class="education-item">
+                        <div class="education-date">
+                            <span>2023</span>
+                        </div>
+                        <div class="education-content">
+                            <div class="education-header">
+                                <h4>Professional Certifications</h4>
+                            </div>
+                            <div class="education-description">
+                                <ul>
+                                    <li><strong>HeartSaver CPR AED & First Aid.</strong> </li>
+                                    <li>Prompt Engineering: How To Talk to the AIs, Digital Security Fundamentals, Introduction to ITIL V4, Large Language Models (LLM)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+             <!-- NEW BOX - Add this section at the bottom of the grid -->
+            <div class="additional-info-column">
+                <h3 class="column-title"><i class="fas fa-certificate"></i>Community & Volunteering</h3>
+<div class="additional-info-content community-grid">
+    
+    <!-- Top Row -->
+    <div class="community-group">
+        <p>• Community tech support (informal): Helped family members and neighbors troubleshoot laptops/phones, set up Wi-Fi/printers, recover accounts, and improve security (password managers + MFA), reducing repeat issues and improving digital safety.</p>
+        <p>• Mentoring / tutoring (informal): Supported classmates or younger students with coursework (IT basics, math, coding, or lab assignments), explaining concepts step-by-step and helping them prepare for quizzes/exams.</p>
+        <p>• Translation / admin help: Assisted community members with translating documents or completing online forms (school, healthcare portals, job applications), helping them access services and meet deadlines.</p>
+    </div>
+
+    <!-- Bottom Row -->
+    <div class="community-group">
+        <p>• Food pantry/donation drive support: Participated in collecting, sorting, and distributing donated items (food, clothing, supplies) during high-demand periods.</p>
+        <p>• Youth/community event support: Helped supervise youth activities, set up workshops, or support community programs by managing logistics and keeping activities organized.</p>
+        <p>• Volunteer at a religious/community center: Helped with event setup/cleanup, coordination, and welcoming attendees; assisted with organizing donation drives or community gatherings.</p>
+    </div>
+
+</div>
+        </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section id="projects" class="section">
+    <div class="container">
+        <h2 class="section-title">My <span class="highlight">Projects & Papers</span></h2>
+
+        <div class="projects-grid">
+
+
+            <!-- Project: LinkedIn Capstone Presentation -->
+<div class="project-item" data-category="presentation">
+    <div class="project-img">
+        <img src="Images/Linkedin.jpg" alt="Building a Professional LinkedIn Profile Presentation">
+    </div>
+
+    <div class="project-info">
+        <h3>(Capstone Project) Building a Professional LinkedIn Profile for the Digital Age</h3>
+        <p>
+            A Digital Capstone Project (DCIM) focused on creating a professional LinkedIn profile that
+            improves visibility and connects users to opportunities. Covers profile essentials like
+            headline, About section, experience/projects, networking strategies, and managing digital
+            footprints—linking practical action steps to concepts like weak ties and online identity.
+        </p>
+
+        <div class="project-tech">
+            <span>Digital Identity</span>
+            <span>Professional Branding</span>
+            <span>Networking Strategy</span>
+            <span>Digital Footprint</span>
+        </div>
+
+        <div class="project-download">
+            <a href="https://docs.google.com/presentation/d/1GX4fifhIB2nKzCucL3U-hTIrLBRjrWlP/edit?usp=sharing&ouid=109744216909065681650&rtpof=true&sd=true"
+               target="_blank"
+               class="download-btn"
+               data-project="LinkedIn Capstone"
+               data-filename="Building_a_Professional_LinkedIn_Profile.pptx">
+                <i class="fas fa-download"></i>
+                <span>Download Presentation (PPTX)</span>
+                <div class="download-progress"></div>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+            <!-- Project 1: TeamCanvas 2.0 -->
+            <div class="project-item" data-category="design">
+                <div class="project-img">
+                    <img src="Images/Canvas.png" alt="TeamCanvas 2.0 Project">
+                </div>
+                <div class="project-info">
+                    <h3>TeamCanvas 2.0</h3>
+                    <p>
+                        A UX research and redesign project focused on improving the Canvas Student mobile app.
+                        Conducted user interviews across multiple student demographics to identify usability,
+                        navigation, notification, and accessibility issues, proposing a more intuitive,
+                        customizable, and student-centered experience.
+                    </p>
+                    <div class="project-tech">
+                        <span>UI/UX Research</span>
+                        <span>Human-Centered Design</span>
+                        <span>User Interviews</span>
+                        <span>Accessibility</span>
+                    </div>
+
+                <div class="project-download">
+                <a href="https://drive.google.com/file/d/1OWA_6p_c7GUoDP92kf9bFlLKA_QQGDdc/view?usp=sharing" 
+                target="_blank" 
+                class="download-btn" 
+                data-project="TeamCanvas 2.0"
+                data-filename="TeamCanvas_2.0_Case_Study.pdf">
+                <i class="fas fa-download"></i>
+                  <span>Download Case Study (PDF, 3.2MB)</span>
+                  <div class="download-progress"></div>
+                 </a>
+                </div>
+                </div>      
+                </div>
+
+
+
+                
+
+
+
+            <!-- Project 2: BeaconPeer -->
+            <div class="project-item" data-category="app">
+                <div class="project-img">
+                    <img src="Images/BeaconPeer.png" alt="BeaconPeer Project">
+                </div>
+                <div class="project-info">
+                    <h3>BeaconPeer</h3>
+                    <p>
+                        A peer-based mental health support system designed for college campuses.
+                        Combines trained peer support pods, an anonymous 24/7 chat application,
+                        and wellness workshops to address student mental health needs while
+                        maintaining privacy, security, and ethical boundaries.
+                    </p>
+                    <div class="project-tech">
+                        <span>System Design</span>
+                        <span>UML Diagrams</span>
+                        <span>HCI Principles</span>
+                        <span>Security & Privacy</span>
+                    </div>
+                    <div class="project-download">
+                          <a href="https://drive.google.com/file/d/1pFZ8DuzB-Q48ERkpSs2TMSqZWTcjjDJE/view?usp=sharing" 
+                            target="_blank" 
+                            class="download-btn" 
+                            data-project="BeaconPeer"
+                            data-filename="BeaconPeer_System_Documentation.pdf">
+                            <i class="fas fa-download"></i>
+                            <span>Download Documentation (PDF, 4.5MB)</span>
+                    <div class="download-progress"></div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3: MENA Cultural & Current Events -->
+            <div class="project-item" data-category="web">
+                <div class="project-img">
+                    <img src="Images/MENA.png" alt="MENA Project">
+                </div>
+                <div class="project-info">
+                    <h3>MENA Cultural & Current Events Analysis</h3>
+                    <p>
+                        A collaborative research and presentation project exploring cultural history,
+                        religion, art, and current events across the Middle East and North Africa.
+                        Integrated interactive elements and visual storytelling to communicate complex
+                        geopolitical and cultural topics effectively.
+                    </p>
+                    <div class="project-tech">
+                        <span>Research & Analysis</span>
+                        <span>Visual Storytelling</span>
+                        <span>Cross-Cultural Communication</span>
+                        <span>Interactive Learning</span>
+                    </div>
+                    <div class="project-download">
+                         <a href="https://drive.google.com/file/d/1s9Ap9jxMsPDpCG9cpYFoiGjc5i0qZxbb/view?usp=sharing" 
+                          target="_blank" 
+                            class="download-btn" 
+                            data-project="MENA Cultural & Current Events Analysis"
+                            data-filename="MENA_Research_Paper.pdf">
+                        <i class="fas fa-download"></i>
+                        <span>Download Research Paper (PDF, 2.8MB)</span>
+                        <div class="download-progress"></div>
+                        </a>
+                        </div>
+
+                </div>
+            </div>
+
+
+
+            <!-- Paper 1: Spider-Man Analysis -->
+<div class="project-item" data-category="paper">
+    <div class="project-img">
+        <img src="Images/Spiderman.jpg" alt="Spider-Man Game Analysis Paper">
+    </div>
+    <div class="project-info">
+        <h3>Experiencing the Superhero: Immersion in Spider-Man (2018)</h3>
+        <p>
+            An analytical paper examining Insomniac Games’ Spider-Man (2018) through the lens of
+            game design theory. Explores gameplay mechanics, operational and implicit rules,
+            narrative structure, music, world-building, advertising, and fan communities to
+            demonstrate how games function as immersive cultural and emotional systems.
+        </p>
+        <div class="project-tech">
+            <span>Game Studies</span>
+            <span>UX & Interaction Design</span>
+            <span>Cultural Analysis</span>
+            <span>Media Theory</span>
+        </div>
+
+        <div class="project-download">
+            <a href="https://docs.google.com/document/d/1lNqoeGva_PmIuocJZS4mhcHbYXoo4xcG/edit?usp=sharing&ouid=109744216909065681650&rtpof=true&sd=true"
+               target="_blank"
+               class="download-btn"
+               data-project="Spider-Man Analysis"
+               data-filename="SpiderMan_Game_Analysis.pdf">
+                <i class="fas fa-download"></i>
+                <span>Download Paper (PDF)</span>
+                <div class="download-progress"></div>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<!-- Paper 2: Fortnite Community Analysis -->
+<div class="project-item" data-category="paper">
+    <div class="project-img">
+        <img src="Images/Fortnite.png" alt="Fortnite Community Analysis Paper">
+    </div>
+    <div class="project-info">
+        <h3>Beyond the Screen: Metaculture in Fortnite’s Online Community</h3>
+        <p>
+            A research paper analyzing the Fortnite Reddit community (r/FortNiteBR) as a modern
+            example of game metaculture. Examines how memes, insider language, fan art, moderation,
+            and shared humor extend gameplay into social identity, creativity, and community-driven
+            cultural production.
+        </p>
+        <div class="project-tech">
+            <span>Digital Communities</span>
+            <span>Human-Computer Interaction</span>
+            <span>Social Systems</span>
+            <span>Media Studies</span>
+        </div>
+
+        <div class="project-download">
+            <a href="https://docs.google.com/document/d/1jNRPfpQMFkegGEI3PU7MyM3pkwG2vUGN/edit?usp=sharing&ouid=109744216909065681650&rtpof=true&sd=true"
+               target="_blank"
+               class="download-btn"
+               data-project="Fortnite Community Analysis"
+               data-filename="Fortnite_Community_Analysis.pdf">
+                <i class="fas fa-download"></i>
+                <span>Download Paper (PDF)</span>
+                <div class="download-progress"></div>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+        </div>
+    </div>
+</section>
+
+
+
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>East Brunswick, NJ</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="11737462797e68706b786b26212651767c70787d3f727e7c">yfady409@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+1 (732) 484-6315</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/fady-youssef-417591246/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Fadyyoussef77" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/fady_n_hakeem/" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                            <label for="email">Your Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject" required>
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="highlight">Fa</span>dy
+            </div>
+            <p>Fady Youssef 2026 All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <button id="scrollToTop" class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <div class="custom-cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <div class="bg-animation">
+        <div class="bg-gradient"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
